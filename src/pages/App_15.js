@@ -46,3 +46,16 @@ function App_15() {
 }
 
 export default App_15;
+import './App_15.scss';
+
+import Homepage_15 from './pages/Homepage_15';
+
+const App_15 = () => {
+  return (
+    <div>
+      <Homepage_15/>
+    </div>
+  );
+};
+
+export default App_15;
